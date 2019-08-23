@@ -1,0 +1,249 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  background-color: #AFE7EF;
+  background-image: url("images/white-polka-dots-hexagon-blue-1280x1024-c2-ffffff-afeeee-l2-141-190-a-0-f-4.png");
+  background-size: cover;
+}
+
+body {
+  max-width: 900px;
+  margin: auto;
+}
+
+header {
+  background-color: #A1DBC2;
+  width: 100%;
+  text-align: center;
+  color: brown;
+  height: 100px;
+  padding: 25px;
+  font-family: 'Fredericka the Great', cursive;
+  text-decoration: none;
+}
+
+#spade {
+  height: 80px;
+  display: inline;
+  margin: -20px;
+}
+
+nav {
+  background-color: #F9CA9C;
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0b5394;
+}
+
+#aboutme p {
+  margin: 20px 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#thalia {
+  width: 200px;
+  float: right;
+  border: 4px solid purple;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+nav li {
+  background-color: #CFE1E3;
+  border-radius: 10px;
+  padding: 12px;
+  margin: 2px;
+  color: darkblue;
+}
+
+#widget {
+  display: flex;
+  align-items: flex-end;
+  
+}
+
+hr {
+  border-color: #b45f06;
+  border-style: solid;
+}
+
+main {
+  display: flex;
+  font-family: 'Comfortaa', cursive;
+  width: 95%;
+}
+
+.maincontainer {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: auto;
+}
+
+.maincontainer section {
+  margin: 10px;
+  width: 50%
+}
+
+section {
+  background-color: #F9CA9C;
+  padding: 10px;
+  margin: 10px;
+  color: #1c4587;
+  border-radius: 10px;
+}
+
+hr {
+  color: #b45f06;
+}
+
+section h2 {
+  color: #b45f06;
+}
+
+section li{
+  list-style-position: inside;
+}
+
+#contactform {
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+#contactlist li {
+  padding: 20px;
+  color: #1c4587;
+  list-style: none;
+  font-family: 'Comfortaa', cursive;
+}
+
+
+#contactlist a {
+  color: #1c4587;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.35em;
+}
+
+#resumeicon {
+  border-radius: 130px;
+  height: auto;
+  width: 100%;
+}
+
+#button {
+  background: #a64d79ff;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  flex-flow: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resume {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  display: flex;
+  background-color: #F9CA9C;
+  text-align: center;
+  color: brown;
+  padding: 20px;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+address{
+  width: 100%;
+}
+
+#thaliaend {
+  background-color: #A1DBC2;
+  padding: 10px;
+  margin: 0px;
+  width: 100%;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    flex-flow: column;
+    flex-wrap: wrap;
+  }
+  
+  #spade {
+    height: 60px;
+    margin-right: -10px;
+  }
+  
+  header h1 {
+    width: 100%;
+    text-align: center;
+    color: brown;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 175%
+  }
+  
+  #thalia {
+    width: 200px;
+    float: none;
+    display: block;
+    border: 4px solid purple;
+    margin: 10px auto;
+  }
+
+  .maincontainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  
+  .maincontainer section {
+    margin: 10px;
+    width: 100%
+  }
+  
+  #contactform {
+    margin: 10px;
+    justify-content: center;
+  }
+  
+  address {
+    margin-top: 10px;
+  }
+  
+  footer {
+    flex-wrap: wrap;
+  }
+}
