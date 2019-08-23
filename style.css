@@ -76,7 +76,22 @@ nav li {
 #widget {
   display: flex;
   align-items: flex-end;
-  
+  text-align: center;
+  justify-content: space-between;
+}
+
+#widget div div {
+  padding: 0px;
+  margin: 10px 0px;
+  width: 100%;
+}
+
+.addthis_inline_follow_toolbox {
+  padding: 10px;
+}
+
+.addthis_tipjar_inline {
+  padding: 10px;
 }
 
 hr {
